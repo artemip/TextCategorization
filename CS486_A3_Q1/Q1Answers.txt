@@ -1,0 +1,5 @@
+1)
+	iv) Overfitting does not occur. There is no point where the test set results begin to consistantly become less accurate while the learning set results do not.
+	v) 	Not all of the selected word features made sense to me. For example, the root of the decision tree for both queue implementations is 'writes', which is a word
+		that does not, on its own, carry any specific relevance to atheism or graphics. Both word feature queues are identical, as they do not factor in the number of 
+		training documents at the leaves (this is used to calculate IG for leaves, not decision nodes).

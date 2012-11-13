@@ -1,0 +1,37 @@
+--- Accuracy Results ---
+
+% Correct Training Set = 0.9480642115203022
+% Correct Testing Set = 0.9022662889518414
+
+
+
+--- Most discriminative word features ---
+
+(Word: graphics, Discrimination: 9.230241033682518)
+(Word: atheism, Discrimination: 7.568379267836523)
+(Word: religion, Discrimination: 7.475339236566737)
+(Word: evidence, Discrimination: 7.327123292259293)
+(Word: moral, Discrimination: 7.327123292259293)
+(Word: atheists, Discrimination: 7.275172319452771)
+(Word: bible, Discrimination: 7.110696122978828)
+(Word: religious, Discrimination: 7.052721049232323)
+(Word: christian, Discrimination: 7.052721049232323)
+(Word: islam, Discrimination: 6.993015122932961)
+
+==> These are, in my opinion, very good word features. 
+	'graphics' is bound to come up in mainly the 'comp.graphics' newsgroup, 
+	and all other attributes listed here are definitely closely related to 'alt.atheism'.
+	
+	
+Q: 	The naive Bayes model assumes that all word features are independent. Is this a reasonable assumption? Explain briefly.
+A: 	This assumption is reasonable, but we can do better. Certain words appear more often near other words (or in similar paragraphs), 
+	so there do exist dependencies between them.
+
+Q: 	What could you do to extend the Naive Bayes model to take into account dependencies between words?
+A: 	There need to be conditional probabilities between attributes (words), and we need to take into accound all of the words that 
+	are in a document when calculating the prior probability.
+   
+Q: 	Which approach performs best among decision trees and the naive Bayes model? Explain briefly why.
+A: 	The naive Bayes model performs best, both in terms of accuracy and efficiency. This is because the decision tree implementation 
+	tends to choose words as decision nodes that are not entirely relevant to labels, and is less efficient due to the construction
+	the tree, as well as the subsequent traversal.

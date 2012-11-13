@@ -1,0 +1,48 @@
+-- Non-extended Information Gain Tree --
+
++-- writes, IG: 0.14860454082826213
+    +-- (NotFound) that, IG: 0.11809415636594991
+    ¦   +-- (Found) god, IG: 0.07925665716858155
+    ¦   ¦   +-- (NotFound) not, IG: 0.07328501135570076
+    ¦   ¦   ¦   +-- (NotFound) article, IG: 0.06748979127568883
+    ¦   ¦   ¦   ¦   +-- (NotFound) people, IG: 0.0672106975245429
+    ¦   ¦   ¦   ¦   ¦   +-- (NotFound) graphics, IG: 0.061077428539883294
+    ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) what, IG: 0.06002017475555921
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) you, IG: 0.05990874459048939
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) keith, IG: 0.056443718912811525
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) comp.graphics, IG: 0.627275214614234
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.005052191689381015
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) comp.graphics, IG: 0.3045017075046777
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.1433375953874665
+    ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) comp.graphics, IG: 0.0
+    ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.04765407804943806
+    ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.18623829527682445
+    ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.25698934936181556
+    ¦   ¦   +-- (Found) alt.atheism, IG: 0.009439446030812246
+    ¦   +-- (NotFound) comp.graphics, IG: 0.207876835336793
+    +-- (Found) alt.atheism, IG: 0.2641900048327901
+ 	
+
+-- Extended Information Gain Tree --
+
++-- writes, IG: 0.14860454082826213
+    +-- (NotFound) that, IG: 0.11809415636594991
+    ¦   +-- (Found) god, IG: 0.07925665716858155
+    ¦   ¦   +-- (NotFound) not, IG: 0.07328501135570076
+    ¦   ¦   ¦   +-- (NotFound) article, IG: 0.06748979127568883
+    ¦   ¦   ¦   ¦   +-- (NotFound) people, IG: 0.0672106975245429
+    ¦   ¦   ¦   ¦   ¦   +-- (NotFound) graphics, IG: 0.061077428539883294
+    ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) what, IG: 0.06002017475555921
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) you, IG: 0.05990874459048939
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) keith, IG: 0.056443718912811525
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) comp.graphics, IG: 615.3569855365636
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 0.3940709517717192
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (NotFound) comp.graphics, IG: 164.12642034502127
+    ¦   ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 38.414475563841016
+    ¦   ¦   ¦   ¦   ¦   ¦   +-- (Found) comp.graphics, IG: 0.0
+    ¦   ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 6.957495395217957
+    ¦   ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 62.01735232718254
+    ¦   ¦   ¦   +-- (Found) alt.atheism, IG: 111.53337762302795
+    ¦   ¦   +-- (Found) alt.atheism, IG: 1.038339063389347
+    ¦   +-- (NotFound) comp.graphics, IG: 95.62334425492477
+    +-- (Found) alt.atheism, IG: 128.92472235840157
